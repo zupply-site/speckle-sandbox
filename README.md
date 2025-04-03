@@ -1,4 +1,4 @@
-# mvp
+# speckle-sandbox
 
 ## Build Setup
 
