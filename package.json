@@ -1,0 +1,45 @@
+{
+  "name": "twin-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze",
+    "lint": "eslint --config ./.eslintrc.js --fix --ext .js,.vue ./"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@speckle/viewer": "^2.23.15",
+    "dotenv": "^8.2.0",
+    "nuxt": "2.17.2",
+    "three": "^0.162.0",
+    "v8": "^0.1.0",
+    "vue-cookies": "^1.8.3",
+    "vue-debounce": "^4.0.0",
+    "vue-i18n": "8",
+    "vue-mapbox": "^0.4.1",
+    "vue-moment": "^4.1.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@nuxtjs/vuetify": "1.12.3",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier@npm:@adamjlev/prettier": "^2.1.0",
+    "stylelint": "^13.6.1",
+    "stylelint-config-sass-guidelines": "7.0.0",
+    "stylelint-config-standard": "^20.0.0",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
